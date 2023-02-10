@@ -1,0 +1,15 @@
+.topmenu {
+  display: flex;
+  padding: 0.7rem;
+  flex-direction: row;
+  width: 100%;
+  background-color: var(--container-color);
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topmenu__navigations {
+  display: flex;
+  gap: 1rem;
+}

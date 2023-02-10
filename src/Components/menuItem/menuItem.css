@@ -1,0 +1,19 @@
+.menu-item {
+  display: flex;
+  padding: 0.2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.menu-item__row {
+  flex-direction: row;
+}
+
+.menu-item__column {
+  flex-direction: column;
+}
+
+.menu-item__side-menu {
+  color: var(--button-color);
+}

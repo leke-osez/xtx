@@ -1,0 +1,13 @@
+.payment-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.payment-summary__title {
+  font-size: var(--small-font-size);
+}
+.payment-summary__total {
+  font-size: var(--big-font-size);
+}

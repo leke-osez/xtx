@@ -1,0 +1,13 @@
+.circle {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.circle_active {
+  background-color: var(--body-color);
+}
+
+.circle_dormant {
+  background-color: gray;
+}

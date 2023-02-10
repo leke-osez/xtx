@@ -1,0 +1,22 @@
+.menu-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-title__text {
+  color: gray;
+}
+.menu-title__text_active {
+  color: black;
+}
+.menu-title__line {
+  height: 0.3rem;
+  width: 100%;
+  border-radius: 1rem;
+  background: gray;
+}
+
+.menu-title__line_active {
+  color: var(--first-color);
+}
